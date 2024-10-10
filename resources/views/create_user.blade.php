@@ -19,6 +19,13 @@
                 <div class="pesan-error">{{ $message }}</div>
             @enderror
 
+            <label for="foto">Foto: </label>
+            <input type="file" id="foto" name="foto" value="{{ old('foto') }}" class="@error('foto') input-invalid @enderror"><br>
+            @error('foto')
+            <div class="pesan-error">{{ $message }}</div>
+            @enderror
+
+
             <select name="kelas_id" id="kelas_id" class="@error('kelas_id') input-invalid @enderror">
                 <option value="">Pilih Kelas</option>
                 @foreach ($kelas as $kelasItem)
