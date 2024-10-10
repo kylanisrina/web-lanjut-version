@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>User Information</title>
+    <title>Profile</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
@@ -91,7 +91,7 @@
         <div class="info">
             <h1 class="label">{{$nama}}</h1>
             <h1 class="label">{{ $npm }}</h1>
-            <h1 class="label">{{ $kelas }}</h1>
+            <h1 class="label">{{ $nama_kelas }}</h1>
         </div>
     </div>
 </body>
